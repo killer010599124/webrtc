@@ -92,6 +92,7 @@ function Remote() {
     * This will clear the previous existing data collections from firestore
     * and set caller as ready
     */
+   
     const setStatus = async () => {
         await clearCollection(myOffer)
         await clearCollection(myiceCandidates)
